@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cap.firstspringbootapp.entity.Student;
 import com.cap.firstspringbootapp.service.StudentService;
 
+/*
+ * This class is designed to do the all operations with respect Student like creat,
+ * 
+ * update, read and delete
+ */
 @RestController
 public class StudentController {
 	

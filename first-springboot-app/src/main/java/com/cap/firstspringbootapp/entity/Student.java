@@ -7,6 +7,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+/*
+ * this used to have all properties of a student
+ * 
+ * And and it mapping file for Student_tt table
+ */
 @Entity
 @Table(name = "STUDENT_TT")
 public class Student {
