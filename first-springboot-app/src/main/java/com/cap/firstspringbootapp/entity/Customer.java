@@ -1,5 +1,8 @@
 package com.cap.firstspringbootapp.entity;
 
+/*
+ * this is holding the customer data
+ */
 public class Customer {
 	
 	
