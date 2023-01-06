@@ -24,15 +24,15 @@ public class Student {
 	private int id;
 	
 	
+	
+	
+	// this mapping to FIRST_NAME column of STUDENT_TT table
 	@Column(name = "FIRST_NAME")
 	private String firstName;
 	
 	@Column(name = "LAST_NAME")
 	private String lastName;
-	
-	
 	private int age;
-	
 	
 	private String email;
 
