@@ -29,6 +29,9 @@ public class StudentController {
 	@Autowired
 	StudentService service;
 	
+	/*
+	 * this method used to dave the student data.
+	 */
 	@PostMapping("/saveStudent")
 	public String saveStudent(@RequestBody Student std) {
 		
